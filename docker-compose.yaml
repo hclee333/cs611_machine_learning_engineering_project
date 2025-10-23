@@ -1,0 +1,13 @@
+services:
+  jupyter:
+    build: .
+    container_name: flight_delay_jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - GRANT_SUDO=yes
+    user: root
+    working_dir: /app

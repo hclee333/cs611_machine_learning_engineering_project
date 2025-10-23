@@ -1,0 +1,58 @@
+# Data files (too large for Git)
+data/
+datamart/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# PySpark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Airflow (for future)
+airflow.db
+airflow.cfg
+logs/
+airflow-webserver.pid
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Logs
+*.log
